@@ -1,0 +1,31 @@
+html * {
+
+  font-family: Arial !important;
+}
+
+:root {
+  --primary: #bc4123;
+  --secondary: #2b3452;
+}
+body {
+  margin: 0;
+  padding: 25px;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+* {
+  color: #ffffffe0;
+  margin: 0;
+}
+p {
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 7px;
+  border-radius: 4.5px;
+  color: rgba(241, 217, 217, 0.959);
+  background: var(--primary);
+  cursor: pointer;
+}
+
