@@ -2,45 +2,45 @@
   "careers": [
     {
       "id": 1,
-      "title": "Senior React Developer",
-      "salary": 50000,
-      "location": "London, UK"
+      "title": "Teacher",
+      "salary": 5000000,
+      "location": "Macedonia"
     },
     {
       "id": 2,
       "title": "Plumber",
-      "salary": 40000,
-      "location": "Bowser's Castle"
+      "salary": 40000000,
+      "location": "Bortillos"
     },
     {
       "id": 3,
-      "title": "Gym Leader",
-      "salary": 75000,
-      "location": "Kanto Region"
+      "title": "Electrician",
+      "salary": 5600566,
+      "location": "Wisconsin"
     },
     {
       "id": 4,
-      "title": "Vue Developer",
-      "salary": 40000,
-      "location": "Liverpool, UK"
+      "title": "MySQL Core Contributor and Manager",
+      "salary": 400000000,
+      "location": "Georgia"
     },
     {
       "id": 5,
-      "title": "Tutorial Maker",
-      "salary": 35000,
-      "location": "Manchester, UK"
+      "title": "Dance teacher",
+      "salary": 400000000000,
+      "location": "Argentina"
     },
     {
       "id": 6,
-      "title": "Website Manager",
-      "salary": 50000,
-      "location": "Berlin, Germany"
+      "title": "Aeroplane Mechanic",
+      "salary": 10000000,
+      "location": "Wake Island"
     },
     {
       "id": 7,
-      "title": "Food Tester",
-      "salary": 30000,
-      "location": "London, UK"
+      "title": "Ghost Detective",
+      "salary": 12000000,
+      "location": "Eurasia"
     }
   ]
 }

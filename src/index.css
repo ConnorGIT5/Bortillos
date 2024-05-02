@@ -9,8 +9,8 @@ html * {
 }
 body {
   margin: 0;
-  padding: 25px;
-  font-family: "Poppins";
+  padding: 22px;
+  font-family: Arial;
   background: var(--secondary);
 }
 * {
