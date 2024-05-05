@@ -1,21 +1,19 @@
-html * {
 
-  font-family: Arial !important;
-}
 
 :root {
   --primary: #bc4123;
-  --secondary: #2b3452;
+  --secondary: #fff6f6;
 }
 body {
   margin: 0;
-  padding: 22px;
+  padding: 0px;
   font-family: Arial;
   background: var(--secondary);
 }
 * {
-  color: #ffffffe0;
+  color: #424242e0;
   margin: 0;
+  font-family: Arial !important;
 }
 p {
   margin: 20px 0;
@@ -29,3 +27,18 @@ button {
   cursor: pointer;
 }
 
+/* CSS FOR NAVBAR ********* CSS FOR NAVBAR ********* CSS FOR NAVBAR ********* CSS FOR NAVBAR *********/
+
+.bortillos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: white;
+}
+
+.bortillos-header a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 4px;
+}

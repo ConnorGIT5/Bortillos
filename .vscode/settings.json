@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/182bc9f7-f470-44ce-ad6a-d37931ca6f3c/resourceGroups/Bortillos-RG/providers/Microsoft.Web/sites/bortillos-pickup-webapp",
+    "appService.deploySubpath": "."
+}
