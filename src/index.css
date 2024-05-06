@@ -121,3 +121,9 @@ nav {
 #button_text{
   color: gray;
 }
+
+/* MAIN PAGE CONTENT!!! MAIN PAGE CONTENT!!! MAIN PAGE CONTENT!!! */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}

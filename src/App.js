@@ -1,33 +1,30 @@
-import { BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
-import home_icon from './icons/home.png';
+import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider} from "react-router-dom";
 
-// importing the pages
+// pages imports
 import Home from './pages/Home'
 import About from './pages/About'
 import SignIn from './pages/SignIn'
 import Cart from './components/Cart'
+
+// layout imports
+import RootLayout from "./layouts/RootLayout";
           
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path = "/" element={<RootLayout />}>
+      <Route index element={<Home />}/>
+      <Route path = "about" element={<About />}/>
+      <Route path = "SignIn" element={<SignIn />}/>
+      <Route path = "Cart" element={<Cart />}/>
+  </Route>
+  )
+)
+
 function App() {
   return (
-    <BrowserRouter>
-      <nav><header class="bortillos-header">
-          <NavLink to = "/"><img src={home_icon} alt="home"/></NavLink>
-          <NavLink to ="About"><h1><i>Bortillo's</i></h1></NavLink>
-          <div id ="duo_link">
-            <NavLink to ="SignIn"><button>Sign In</button></NavLink>
-            <NavLink to ="Cart"><button>Cart</button></NavLink>
-          </div>
-      </header></nav>
-   
-      <main>
-        <Routes>
-          <Route index element={<Home />}/>
-          <Route path = "about" element={<About />}/>
-          <Route path = "SignIn" element={<SignIn />}/>
-          <Route path = "Cart" element={<Cart />}/>
-        </Routes>
-      </main>
-    </BrowserRouter>
+     
+      <RouterProvider router={router} />
+ 
   );
 }
 
