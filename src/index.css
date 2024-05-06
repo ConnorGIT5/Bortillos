@@ -48,6 +48,17 @@ button {
 .bortillos-header img {
   height: 35px;
   width: 35px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.bortillos-header img:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.bortillos-header img:active {
+  box-shadow: 0px 0px 6px 0px #888888 inset;
+  transform: translateY(2px);
 }
 
 .bortillos-header i {
@@ -66,6 +77,8 @@ nav {
   padding: 20px;
 }
 
+/* Start Order button */
+
 .home button {
   border-style: solid;
   border-color: rgb(165, 165, 165);
@@ -73,12 +86,26 @@ nav {
   padding: 14px;
   border-radius: 4.5px;
 
-  background: rgb(243, 243, 243);
+  background-color: rgb(243, 243, 243);
+  box-shadow: 2px 2px 2px #888888;
   cursor: pointer;
   font-weight: bold;
   font-size: 18px;
 }
 
+.home button:hover {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0px 0px 6px 0px #888888;
+}
+
 #button_text{
   color: gray;
 }
+
+.home button:active {
+  box-shadow: 0px 0px 6px 0px #888888 inset;
+  background-color: rgb(240, 240, 240);
+  transform: translateY(2px);
+}
+
+
