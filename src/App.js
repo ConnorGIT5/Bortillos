@@ -4,11 +4,11 @@ import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider} f
 import Home from './pages/Home'
 import About from './pages/About'
 import SignIn from './pages/SignIn'
-import Cart from './components/Cart'
 
 // layout imports
 import RootLayout from "./layouts/RootLayout";
-          
+import Cart from './components/Cart'          
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path = "/" element={<RootLayout />}>
