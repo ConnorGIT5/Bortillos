@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Getting Started with Create React App
+
+# PROJECT IS LIVE AT THIS ADDRESS: https://bortillos-pickup-webapp.azurewebsites.net/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
