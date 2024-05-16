@@ -1,8 +1,9 @@
-export default function Home() {
+export default function LandingPage() {
     return (
-        <div className="home">
+        <div className="landingPage">
             <br/><br/><br/><br/>
-            <h2>This is a test home component</h2>
+            <h2>This is a test "about page" component. Bortillos doesn't have an about page in their top nav bar.</h2>
+            <h3>Maybe have a blog somewhere here</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequuntur, voluptas et quod magni molestiae aperiam itaque officiis? Fuga nisi reiciendis sapiente quasi dicta eius, minus, necessitatibus odio error nobis commodi, amet inventore voluptatem! Ea!
 
             </p>
@@ -12,11 +13,6 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo consequuntur, voluptas et quod magni molestiae aperiam itaque officiis? Fuga nisi reiciendis sapiente quasi dicta eius, minus, necessitatibus odio error nobis commodi, amet inventore voluptatem! Ea!
                 
             </p>
-
-            <button><pre id='button_text'>Start Order   {'>'}  </pre></button>
-            <h1>This is a debug test</h1>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
-        
     )
 }
