@@ -2,8 +2,6 @@ import React from 'react'
 
 import { Outlet, NavLink } from 'react-router-dom'
 
-import home_icon from '../icons/home.png';
-
 
 export default function LandingPageLayout() {
     return (
