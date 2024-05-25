@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Getting Started with Create React App
+# This is a clone of the Portillo's takeout site
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
