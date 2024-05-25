@@ -3,7 +3,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 import home_icon from '../icons/home.png';
 
-export default function OrderRoutLayout() {
+export default function OrderRootLayout() {
   return (
     <div className="root-layout">
       <nav>

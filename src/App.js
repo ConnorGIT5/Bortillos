@@ -8,6 +8,7 @@ import OrderRootLayout from "./layouts/OrderRootLayout";
 import Cart from './components/Cart'          
 import LandingPageLayout from "./layouts/LandingPageLayout";
 import TakeoutStart from "./pages/TakeoutStart";
+import NotFound from "./pages/NotFound"
 
 // (BELOW) LandingPageLayout (index) should probably have it's own domain
 const router = createBrowserRouter(
@@ -22,6 +23,8 @@ const router = createBrowserRouter(
         <Route path ="Locations"/>
         <Route path ="Careers"/>
       </Route> 
+
+      <Route path="*" element={<NotFound />} />
     </Route>
   
   )
